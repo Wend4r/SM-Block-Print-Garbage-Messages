@@ -1,0 +1,83 @@
+"Games"
+{
+	"csgo"
+	{
+		"Addresses"
+		{
+			"aMsgFromSSRejec"		// Msg from %s: %s rejected by msg bind (%d bytes)\n
+			{
+				"signature" "CCLCMsg_VoiceData"
+
+				"linux"
+				{
+					"read"		"2688"
+				}
+				"windows"
+				{
+					"read"		"1592"
+				}
+			}
+			"aSendnetmsgSStr"		// SendNetMsg %s: stream[%s] buffer overflow (maxsize = %d)!\n
+			{
+				"signature" "SendNetMsg"
+
+				"linux"
+				{
+					"read"		"370"
+				}
+				"windows"
+				{
+					"read"		"232"
+				}
+			}
+			"aPutclientinser"		// PutClientInServer: no info_player_start on level\n
+			{
+				"signature" "PutClientInServer"
+
+				"linux"
+				{
+					"read"		"654"
+				}
+				"windows"
+				{
+					"read"		"592"
+				}
+			}
+			"aPutclientinser_0"		// PutClientInServer: no info_player_logo on level\n
+			{
+				"signature" "PutClientInServer"
+
+				"linux"
+				{
+					"read"		"717"
+				}
+				"windows"
+				{
+					"read"		"599"
+				}
+			}
+		}
+
+		"Signatures"
+		{
+			"CCLCMsg_VoiceData"
+			{
+				"library"		"engine"
+				"linux"			"\x55\x89\xE5\x57\x56\x53\x81\xEC\x9C\x00\x00\x00\xA1\x2A\x2A\x2A\x2A\x0F\xB6\x5D\x10"
+				"windows"		"\x55\x8B\xEC\x83\xE4\xF0\x81\xEC\x88\x00\x00\x00"
+			}
+			"SendNetMsg"
+			{
+				"library"		"engine"
+				"linux"			"\x55\x89\xE5\x83\xEC\x38\x0F\xB6\x45\x14\x89\x5D\xF4"
+				"windows"		"\x55\x8B\xEC\x83\xEC\x08\x56\x8B\xF1\x8B\x86\xC4\x00\x00\x00"
+			}
+			"PutClientInServer"
+			{
+				"library"		"server"
+				"linux"			"\x55\x89\xE5\x56\x53\x83\xEC\x20\xC7\x45\xF4\x00\x00\x00\x00"
+				"windows"		"\x55\x8B\xEC\x51\xA1\x2A\x2A\x2A\x2A\x53\x56\x33\xF6"
+			}
+		}
+	}
+}
