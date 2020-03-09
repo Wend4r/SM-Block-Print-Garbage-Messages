@@ -4,7 +4,14 @@
 
 #pragma newdecls required
 
-// block_print_voicedata.sp
+// block_print_garbage_messages.sp
+public Plugin myinfo = 
+{
+	name = "Block Print Garbage Messages",
+	author = "Wend4r",
+	version = "1.0",
+	url = "Discord: Wend4r#0001 | https://discord.gg/9gGHgBP"
+};
 
 char	g_sMsgFromSSRejec[2],
 		g_sSendnetmsgSStr[2],
