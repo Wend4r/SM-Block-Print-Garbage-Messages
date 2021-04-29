@@ -36,11 +36,11 @@
 
 				"linux"
 				{
-					"read"		"654"
+					"read"		"702"		// 0x2BE
 				}
 				"windows"
 				{
-					"read"		"592"
+					"read"		"601"		// 0x259
 				}
 			}
 			"aPutclientinser_0"		// PutClientInServer: no info_player_logo on level\n
@@ -49,11 +49,11 @@
 
 				"linux"
 				{
-					"read"		"717"
+					"read"		"765"		// 0x2FD
 				}
 				"windows"
 				{
-					"read"		"599"
+					"read"		"594"		// 0x252
 				}
 			}
 		}
