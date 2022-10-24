@@ -14,7 +14,7 @@
 				}
 				"windows"
 				{
-					"read"		"1592"
+					"read"		"1779"
 				}
 			}
 			"aSendnetmsgSStr"		// SendNetMsg %s: stream[%s] buffer overflow (maxsize = %d)!\n
@@ -27,7 +27,7 @@
 				}
 				"windows"
 				{
-					"read"		"232"
+					"read"		"240"
 				}
 			}
 			"aPutclientinser"		// PutClientInServer: no info_player_start on level\n
@@ -36,11 +36,11 @@
 
 				"linux"
 				{
-					"read"		"702"		// 0x2BE
+					"read"		"670"
 				}
 				"windows"
 				{
-					"read"		"601"		// 0x259
+					"read"		"779"
 				}
 			}
 			"aPutclientinser_0"		// PutClientInServer: no info_player_logo on level\n
@@ -49,11 +49,11 @@
 
 				"linux"
 				{
-					"read"		"765"		// 0x2FD
+					"read"		"733"
 				}
 				"windows"
 				{
-					"read"		"594"		// 0x252
+					"read"		"772"
 				}
 			}
 		}
@@ -70,7 +70,7 @@
 			{
 				"library"		"engine"
 				"linux"			"\x55\x89\xE5\x83\xEC\x38\x0F\xB6\x45\x14\x89\x5D\xF4"
-				"windows"		"\x55\x8B\xEC\x83\xEC\x08\x56\x8B\xF1\x8B\x86\xC4\x00\x00\x00"
+				"windows"		"\x55\x8B\xEC\x83\xEC\x08\x56\x8B\xF1\x8B\x4D\x04"
 			}
 			"PutClientInServer"
 			{
