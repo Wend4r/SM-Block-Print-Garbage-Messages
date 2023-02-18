@@ -10,7 +10,7 @@
 
 				"linux"
 				{
-					"read"		"2688"
+					"read"		"3817"
 				}
 				"windows"
 				{
@@ -23,7 +23,7 @@
 
 				"linux"
 				{
-					"read"		"370"
+					"read"		"428"
 				}
 				"windows"
 				{
@@ -36,7 +36,7 @@
 
 				"linux"
 				{
-					"read"		"670"
+					"read"		"746"
 				}
 				"windows"
 				{
@@ -49,7 +49,7 @@
 
 				"linux"
 				{
-					"read"		"733"
+					"read"		"659"
 				}
 				"windows"
 				{
@@ -63,19 +63,19 @@
 			"CCLCMsg_VoiceData"
 			{
 				"library"		"engine"
-				"linux"			"\x55\x89\xE5\x57\x56\x53\x81\xEC\x9C\x00\x00\x00\xA1\x2A\x2A\x2A\x2A\x0F\xB6\x5D\x10"
+				"linux"			"\x55\x89\xE5\x57\x56\x53\x81\xEC\x9C\x01\x00\x00\x8B\x7D\x10"
 				"windows"		"\x55\x8B\xEC\x83\xE4\xF0\x81\xEC\x88\x00\x00\x00"
 			}
 			"SendNetMsg"
 			{
 				"library"		"engine"
-				"linux"			"\x55\x89\xE5\x83\xEC\x38\x0F\xB6\x45\x14\x89\x5D\xF4"
+				"linux"			"\x55\x89\xE5\x57\x56\x53\x83\xEC\x1C\x8B\x45\x14\x8B\x5D\x08"
 				"windows"		"\x55\x8B\xEC\x83\xEC\x08\x56\x8B\xF1\x8B\x4D\x04"
 			}
 			"PutClientInServer"
 			{
 				"library"		"server"
-				"linux"			"\x55\x89\xE5\x56\x53\x83\xEC\x20\xC7\x45\xF4\x00\x00\x00\x00"
+				"linux"			"\x55\x89\xE5\x56\x53\x83\xEC\x1C\xC7\x45\xF4\x00\x00\x00\x00"
 				"windows"		"\x55\x8B\xEC\x51\xA1\x2A\x2A\x2A\x2A\x53\x56\x33\xF6"
 			}
 		}
